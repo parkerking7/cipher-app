@@ -1,0 +1,11 @@
+.inputBox, .selectBox{
+	height:50px;
+	margin-bottom:25px;
+	margin-top: 50px;
+	font-size:15px;
+}
+
+.buttons{
+	width:100%;
+	font-size:20px;
+}
