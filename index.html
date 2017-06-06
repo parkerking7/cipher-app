@@ -5,11 +5,15 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Cipher</title>
+    <title>Cipher Page</title>
 </head>
-<body ng-controller="HomeController">
-
-<ng-show></ng-show>
-
+<body ng-controller="mainCtrl">
+<input type="text" ng-model='textBox'><button ng-click="cipher()">Cipher</button><button ng-click="decipher()">Decipher</button>
+<br>
+Ciphered: {{cipheredText}}
+<br>
+Deciphered: {{decipheredText}}
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
